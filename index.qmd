@@ -1,30 +1,28 @@
 ---
-title: "MUSA 550 Final Project Template"
-subtitle: "An example website demonstrating the power of Quarto for sharing analyses on the web"
+title: "Health & Environmental Impacts of Warehousing in Ontario, CA"
+subtitle: "How does warehousing impact communities at the forefront of Southern California's logistics industry?"
 ---
 
-## Welcome!
+<!-- Use a grid -->
+::: {.grid}
 
-We can create beautiful websites that describe complex technical analyses in Python using [Quarto](https://quarto.org) 
-and deploy them online using [GitHub Pages](https://pages.github.com/). This combination of tools is a really powerful way 
-to create and share your work. This website is a demo that is meant to be used to create your own Quarto website for the 
-final project in MUSA 550. 
-
-Quarto is a relatively new tool, but is becoming popular quickly. It's a successor 
-to the Rmarkdown ecosystem that combines functionality into a single tool and also extends its computation power to other
-languages. Most importantly for us, Quarto supports executing Python code, allowing us to convert Jupyter notebooks to HTML and share them online.  
-
-::: {.callout-important}
-This template site, including the layout it uses, is just a suggested place to start! For your final project, you're welcome (and encouraged) to 
-make as many changes as you like to best fit your project.
+<!-- Left column has a width of 4/12 and shows a picture -->
+::: {.g-col-4}
+![](images/105615024_1539292286242269_4234515362887693682_n.png){width=3in}
 :::
 
-## Find out more
+<!-- Text gets a column with width 8/12 -->
+::: {.g-col-8}
 
-The code for this repository is hosted on our course's GitHub page: [https://github.com/MUSA-550-Fall-2023/quarto-website-template](https://github.com/MUSA-550-Fall-2023/quarto-website-template).
+## Introduction
 
-We covered the basics of getting started with Quarto and GitHub Pages in week 9. Take a look at
-[the slides for lecture 9A](https://musa-550-fall-2023.github.io/content/week-9/lecture-9A.html) to find out more.
+Goods movement plays a critical role in California's economic and social life, delivering everything from life-saving vaccines to impulsive Amazon purchases. Warehouses are integral storage and distribution points for goods, and yet, for many communities, bring with them disastrous social, health, and environmental outcomes. 
+
+As post-pandemic consumers continue to demand more products delivered at a faster pace, the size and number of warehouses are likely to continue growing. Who will be affected by the changes they bring?
+
+::: 
+
+:::
 
 
 

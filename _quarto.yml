@@ -5,29 +5,26 @@ project:
     port: 3333
 
 website:
-  title: "MUSA 550 Quarto Template"
-  site-url: "https://musa-550-fall-2023.github.io/quarto-website-template" 
-  repo-url: https://github.com/MUSA-550-Fall-2023/quarto-website-template 
+  title: "Health & Environmental Impacts of Warehousing in Ontario, CA"
+  site-url: "https://dandaaa.github.io/Housing_site/" 
+  repo-url: https://dandaaa.github.io/Housing_site/ 
   repo-actions: [source]
 
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; CC-Nick Hand, 2023"
+    left: "&copy; CC-Zhida Ma, 2024"
 
   sidebar:
-    logo: "images/course-icon.png"
+    logo: images/image-1200x800-1.png
     pinned: true
     align: center
     tools: 
-      - icon: globe
-        href: https://nickhand.dev
-        text: "Personal Website"
       - icon: github
-        href: https://github.com/MUSA-550-Fall-2023/
+        href: https://github.com/Dandaaa/Housing_site
         text: "MUSA 550 GitHub"
-      - icon: twitter
-        href: https://twitter.com/nicholashand
-        text: "Nick Hand Twitter"         
+      - icon: linkedin
+        href: https://www.linkedin.com/in/zhida-ma-4a9b23165
+        text: "Zhida Linkedin"         
 
     style: "docked"
     search: true
@@ -35,13 +32,21 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - about.qmd
-      - section: analysis/index.qmd
+      - section: Final-notebooks/Analysis Section.ipynb
+        text: Analysis Sections
         contents:
-          - analysis/1-python-code-blocks.qmd 
-          - analysis/2-static-images.ipynb
-          - analysis/3-altair-hvplot.ipynb
-          - analysis/4-folium.ipynb
+          - href: Final-notebooks/1. AboutProject.ipynb 
+            text: "1 About Project"
+          - href: Final-notebooks/2. DataExploration.ipynb
+            text: "2 Data Cleaning-Data Exploration"
+          - href: Final-notebooks/2.1 EJIData.ipynb
+            text: "2.1 Data Cleaning-EJI Data"
+          - href: Final-notebooks/3. LoopingWarehouseMap.ipynb
+            text: "3 Looping Warehouse Map"
+          - href: Final-notebooks/4. Demographics.ipynb
+            text: "4 Demographics"
+          - href: Final-notebooks/5. Analysis.ipynb
+            text: "5 Analysis"
 
 format:
   html:
